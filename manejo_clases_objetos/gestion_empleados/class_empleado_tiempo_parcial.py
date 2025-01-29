@@ -7,5 +7,5 @@ class EmpleadoTiempoParcial(Empleado):
         self.horas_trabajadas = horas_trabajadas
 
     def calcular_salario(self):
-        return (self.salario_base + 1.5 * self.horas_trabajadas * 4 * 12 )
+        return (self.salario_base * self.horas_trabajadas * 4 * 12 )
         
